@@ -13,7 +13,7 @@ mesaj["to"] = "alıcının maili"
 mesaj["subject"] = "smtp mail gönderme"
 
 yazi = """
-göderilmek istenen metin
+alıcıya göndermek istediğimiz metin
 """
 
 mesaj_gövdesi= MIMEText(yazi,"plain")
